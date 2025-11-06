@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Uzima Bank</title>
+  <style>
+    body {
+      background-color: violet;
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    header {
+      background-color: black;
+      color: red;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      background-color: black;
+      color: red;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    table {
+      border: 2px solid black;
+      border-collapse: collapse;
+      width: 60%;
+      
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 5px;
+      text-align: left;
+    }
+    form {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      width: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome to Uzima Bank Page</h1>
+  <img src="uzimabank.png" alt="Image of Uzima Bank" width="400">
+
+  <header>
+    <h1>Loans and Savings</h1>
+    <p><em>"Usisote, life ni kuinuana."</em></p>
+    <nav>
+      <a href="#About">About</a>
+      <a href="#Location">Location</a>
+      <a href="#Hours">Hours</a>
+      <a href="#Qualifications">Qualifications</a>
+      <a href="#Payment">Payment</a>
+      <a href="#Charges">Charges</a>
+    </nav>
+  </header>
+
+  <section id="About">
+    <h2>About Us</h2><hr>
+    <p style="color:red">The apearance of our banks</p>
+    <img src="uzimabank1.png" alt="Appearance of the bank" width="150">
+    <p><strong>Uzima Bank</strong> is a new bank that aims to make life simpler by offering financial support to everyone.</p>
+    <blockquote>"We believe that everyone needs money all the time."</blockquote>
+  </section><hr
+
+  <section id="Location">
+    <h2>Where to Find Us</h2>
+    <address>
+      We have branches all over world.<br>
+      Find us in all countries.
+    </address>
+    <iframe src="https://www.google.com/maps" width="100%" height="200" title="Map preview"></iframe>
+    <a href="https://ww.google.com" width="100%" height="200">Know more about Uzima bank</a>
+    <p style="color:yellow"><b>Uzima bank Anthem height</b></p>
+    <audio src="Anthem.mp3"controls></audio>
+  </section><hr>
+    <h2>Process & guidance at the bank</h2>
+    <p>we offer good and the better service to our clients<br>
+      by talkings to them well and giving them guidance where needed to do so.
+    </p>
+    <video src="uzima1.mp4" controls height="300" width="250"></video>
+
+  <section id="Hours"><hr>
+    <h2>Our Working Hours</h2>
+    <ul>
+      <li>Monday–Saturday</li>
+    </ul>
+    <table aling>
+      <caption><strong>Weekly Services</strong></caption>
+      <tr><th>Day</th><th>Hours</th></tr>
+      <tr><td>Monday</td><td>8:00–5:00</td></tr>
+      <tr><td>Tuesday</td><td>8:00–5:00</td></tr>
+      <tr><td>Wednesday</td><td>8:00–5:00</td></tr>
+      <tr><td>Thursday</td><td>8:00–5:00</td></tr>
+      <tr><td>Friday</td><td>8:00–5:00</td></tr>
+      <tr><td>Saturday</td><td>8:00–12:00</td></tr>
+    </table>
+    <p>ATM services are available 24 hours.</p>
+  </section>
+
+  <section id="Qualifications">
+    <h2>Qualifications</h2>
+    <p>You must have saved with us for at least 2 months.<br>
+    Remember: the more you save, the more you can borrow.</p>
+  </section>
+
+  <section id="Payment">
+    <h2>Mode of Payment</h2>
+    <p>You can make payments anytime within the allowed period. Late payments may incur additional charges.</p>
+  </section>
+
+  <section id="Charges and savings">
+    <h2>Charges and savings</h2>
+    <p>We offer low-interest rates compared to other banks.<br>
+    Our loan interest rate is 6% of the amount borrowed and give 1% to those who make savings.</p>
+    <video src="uzima.mp4" height="300" width="250" controls></video>
+  </section>
+
+  <section id="Contact">
+    <h2>Contact Us</h2>
+    <p>Phone: <a href="tel:+254769751803">0769 751 803</a><br>
+       WhatsApp: 0769 751 803<br>
+       Email: <a href="uzimabank@mylife.com">uzimabank@mylife.com</a></p>
+  </section>
+
+  <section id="Application">
+    <h2>Application Form</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+
+      <label for="idno">ID No:</label><br>
+      <input type="text" id="idno" name="idno" placeholder="Enter ID number"><br>
+
+      <label for="phone">Phone No:</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="Enter phone number"><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+
+      <label for="county">County:</label><br>
+      <input type="text" id="county" name="county" placeholder="Enter county name"><br>
+
+      <label for="dob">Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob"><br>
+
+      <label for="guarantor">Guarantor Name:</label><br>
+      <input type="text" id="guarantor" name="guarantor" placeholder="Enter guarantor name"><br>
+
+      <label for="guarantorid">Guarantor ID No:</label><br>
+      <input type="number" id="guarantorid" name="guarantorid" placeholder="Enter guarantor ID number"><br><br>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Clear Form</button>
+    </form>
+  </section>
+  
+<img src="passport.jpg" alt="missing image" heiht="50" width="100">
+  <footer>
+    <p>Follow us on:<br>
+      <a href="#">Facebook</a> | 
+      <a href="#">Instagram</a> | 
+      <a href="#">Twitter</a> | 
+      <a href="#">WhatsApp</a>
+    </p>
+    <p>Contact: <a href="tel:+254769751803">0769 751 803</a></p>
+  </footer>
+</body>
+</html>
